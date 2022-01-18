@@ -1,0 +1,42 @@
+        .main-section {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .main-section {
+            &__h1 {
+                margin-left: 2.5rem;
+                margin-bottom: 1.875rem;
+                &--font {
+                    font-size: $med;
+                    font-weight: $heavy;
+                }
+            }
+            &__h4 {
+                margin-top: 1.25rem;
+                font-weight: $heavy;
+                font-size: $med;
+            }
+            &__image {
+                &--size {
+                    width: 21.875rem;
+                    height: 10.938rem;
+                }
+            }
+            &__paragraphe {
+                font-size: $small;
+                font-weight: $thin;
+            }
+            &__row1 {
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: nowrap;
+                margin-bottom: 3.125;
+            }
+            &__row2 {
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: nowrap;
+            }
+        }

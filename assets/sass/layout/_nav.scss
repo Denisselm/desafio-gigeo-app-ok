@@ -1,0 +1,23 @@
+//nav-bar styles
+.container-fluid {}
+
+.style {
+    color: $darknight;
+    font-size: $med;
+}
+
+.nav-link {}
+
+.navbar {}
+
+.navbar-brand {
+    color: $darknight;
+    font-size: $big;
+    font-weight: $heavy;
+    font-family: $letters;
+    &__sup {
+        font-family: $letters;
+        font-weight: $thin;
+        font-size: $med;
+    }
+}
